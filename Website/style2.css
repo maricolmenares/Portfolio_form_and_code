@@ -1,0 +1,43 @@
+
+
+.frame-container {
+    position: relative;
+    margin-left: 3vw; 
+    margin-right: 3vw;
+    margin-top: 10vh;
+}
+
+.content {
+    /* Style your content as needed */
+    position: relative; /* Ensure it's positioned for stacking context */
+    padding: 20px; /* Adjust padding to ensure content fits well within the frame */
+}
+
+.frame-image {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0; /* Helps center the image if it's not as wide as the container */
+
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: fill;
+}
+
+/*text*/
+h1 {
+   
+    color: rgb(0,0,0);
+    font-size: 40pt;
+    font-family: 'Roboto Flex', sans-serif;
+   
+}
+
+h2{
+  
+    color: rgb(255, 105, 180);
+     font-family: "DM Serif Text", serif;
+}
